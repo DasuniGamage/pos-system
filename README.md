@@ -1,9 +1,8 @@
-**🛒 Point of Sale (POS) System Backend – Spring Boot
-**
+#🛒 Point of Sale (POS) System Backend – Spring Boot
 
 This repository contains the backend implementation of a Point of Sale (POS) system developed using Spring Boot. The system provides a robust foundation for managing products, categories, transactions, and inventory-related data, enabling seamless integration with a frontend UI or mobile app.
 
-**🔧 Key Features**
+##🔧 Key Features
 
 CRUD operations for product and category management
 
@@ -21,7 +20,7 @@ Development enhancements with Spring Boot DevTools
 
 Simplified code with Lombok
 
-**🛠 Tech Stack**
+##🛠 Tech Stack
 
 Java 11
 
@@ -42,7 +41,7 @@ Hibernate Types
 
 Jakarta Validation
 
-**📁 Project Structure**
+##📁 Project Structure
 
 controller/ – Exposes RESTful endpoints
 
@@ -56,7 +55,7 @@ dto/ – Data Transfer Objects for API interaction
 
 exception/ – Global exception handling
 
-**🚀 Getting Started**
+##🚀 Getting Started
 
 Clone the repository:
 
@@ -77,7 +76,7 @@ Access Swagger UI:
 
 http://localhost:8080/swagger-ui/
 
-**📌 Future Enhancements**
+##📌 Future Enhancements
 
 User authentication & role-based access control (Spring Security + JWT)
 
