@@ -4,42 +4,41 @@ This repository contains the backend implementation of a Point of Sale (POS) sys
 
 ## 🔧 Key Features
 
-CRUD operations for product and category management
+* CRUD operations for product and category management
 
-MySQL database integration using Spring Data JPA
+* MySQL database integration using Spring Data JPA
 
-API documentation with Swagger UI
+* API documentation with Swagger UI
 
-DTO conversion using MapStruct and ModelMapper
+* DTO conversion using MapStruct and ModelMapper
 
-Custom data types support using hibernate-types-5
+* Custom data types support using hibernate-types-5
 
-Input validation with Jakarta Bean Validation
+* Input validation with Jakarta Bean Validation
 
-Development enhancements with Spring Boot DevTools
+* Development enhancements with Spring Boot DevTools
 
-Simplified code with Lombok
+* Simplified code with Lombok
 
 ## 🛠 Tech Stack
 
-Java 11
+* Java 11
 
-Spring Boot 2.5.4
+* Spring Boot 2.5.4
 
-Spring Data JPA
+* Spring Data JPA
 
-MySQL
+* MySQL
 
+* Lombok
 
-Lombok
+* MapStruct & ModelMapper
 
-MapStruct & ModelMapper
+* Swagger 2 (Springfox)
 
-Swagger 2 (Springfox)
+* Hibernate Types
 
-Hibernate Types
-
-Jakarta Validation
+* Jakarta Validation
 
 ## 📁 Project Structure
 
@@ -57,31 +56,33 @@ exception/ – Global exception handling
 
 ## 🚀 Getting Started
 
-Clone the repository:
+* Clone the repository:
+```
 
 git clone https://github.com/your-username/point-of-sale.git
 
 cd point-of-sale
+```
 
 
-Configure the database:
+* Configure the database:
 
 Update the application.properties with your local MySQL credentials.
 
-Run the application:
+* Run the application:
 
-mvn spring-boot:run
+``` mvn spring-boot:run ```
 
-Access Swagger UI:
+* Access Swagger UI:
 
-http://localhost:8080/swagger-ui/
+``` http://localhost:8080/swagger-ui/ ```
 
 ## 📌 Future Enhancements
 
-User authentication & role-based access control (Spring Security + JWT)
+* User authentication & role-based access control (Spring Security + JWT)
 
-Sales reports & analytics
+* Sales reports & analytics
 
-Unit and integration tests
+* Unit and integration tests
 
-Docker support for containerization
+* Docker supports containerization
